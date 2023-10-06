@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ColorsViewController: UIViewController {
     
     // MARK: - IBOutlets
     
@@ -26,10 +26,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         coloredView.backgroundColor = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 1)
-    }
-    
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
         coloredView.layer.cornerRadius = 12
     }
     
