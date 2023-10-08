@@ -1,5 +1,5 @@
 # Change color
-It's my first app :)
+It's my third app :)
 I made it during my SwiftBook training.
 
 ### The task was:
